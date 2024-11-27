@@ -1,0 +1,18 @@
+name: Deploy to Vercel
+on: push
+
+jobs:
+ -run: "node"
+allow_failure: true
+
+allow-matrix: *(/git-vercel/vercel.com)
+steps:
+  - name: Clone Repository
+    uses: ${{git_repo_ref}/repo
+
+  - name: Node Frontend tests
+    run: nust.js       # Run nust lints with lender
+   action: sync
+
+node: ci
+  build on success
