@@ -3,13 +3,13 @@
 A complete system for managing and exploring multiversal hubs.
 
 ## Features
-- Real-time monitoring and management of hubs.
-- Provides command to stabilize hubs.
-- PostgreSQL Database for hub state and logs.
+- Real-time monitoring and stabilization of multiversal hubs.
+- Real-time dashboard with interactive visualizations.
+- Configurable path and query optimization for efficient query processing.
 
-## Setup and Deployment
+## Setup Instructions
 ## Backend
-Install and run the backend server:
+Install the core requirements and run the backend server:
 
 ```python
 pip install flask flask-cors psycopg2-binary
@@ -17,15 +17,13 @@ app.py
 ```
 
 ## Frontend
-Debase start install and visualize the soft:
+Install the necessary libraries and run the frontend server:
 
-```code
-prompty online Run Frontend commands, use React.
+```npx
+start server
 ```
 
 ## Deployment
-Use Vercel for automated deployment. Steps include commits to main and subdir.
-```adocker
-docker command auto run tests
-  
-start app.htm
+Set up a version control using a docker-based framework on Vercel.
+## End of README.
+expand
