@@ -1,0 +1,10 @@
+name: Ci-CD
+
+on: push
+
+allow:
+  matrix: *-*/**
+runs:
+  - name: Check linters and tests
+    run: "npm test"
+steps:  # Compiling verified code and runs frontent
