@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "serverles": [{
+    "source": "/",
+    "destination": "main.json"
+  }]
+}
