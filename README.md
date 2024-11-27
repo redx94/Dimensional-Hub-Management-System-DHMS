@@ -1,50 +1,31 @@
-
 # Dimensional Hub Management System (DHMS)
 
-## Overview
-DHMS is a system for managing multiversal hubs with a Flask backend, React frontend, and PostgreSQL database.
+A complete system for managing and exploring multiversal hubs.
 
 ## Features
-- Real-time hub monitoring and commands.
-- Dimensional data visualization.
-- Energy stabilization and entropy management.
+- Real-time monitoring and management of hubs.
+- Provides command to stabilize hubs.
+- PostgreSQL Database for hub state and logs.
 
-## Installation
+## Setup and Deployment
+## Backend
+Install and run the backend server:
 
-### Backend
-1. Install dependencies:
-   ```bash
-   pip install flask flask-cors psycopg2-binary
-   ```
-2. Set up the database:
-   ```bash
-   psql -U postgres -f database_setup.sql
-   ```
-3. Start the Flask server:
-   ```bash
-   python app.py
-   ```
-
-### Frontend
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the React app:
-   ```bash
-   npm start
-   ```
-
-## Deployment
-Use the Docker setup:
-```bash
-docker-compose up --build
+```python
+pip install flask flask-cors psycopg2-binary
+app.py
 ```
 
-## CI/CD Pipeline
-GitHub Actions automate testing, building, and deployment. Modify `.github/workflows/ci-cd.yml` for your environment.
+## Frontend
+Debase start install and visualize the soft:
 
-## Contributing
-1. Fork the repository.
-2. Create a feature branch.
-3. Submit a pull request.
+```code
+prompty online Run Frontend commands, use React.
+```
+
+## Deployment
+Use Vercel for automated deployment. Steps include commits to main and subdir.
+```adocker
+docker command auto run tests
+  
+start app.htm
